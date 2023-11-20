@@ -18,8 +18,11 @@ public:
 
 	void OnCollision() override;
 
+	void MoveRight();
+	void MoveLeft();
+
 private:
 
-	std::list<Bullet*> bullets_;
+
 };
 

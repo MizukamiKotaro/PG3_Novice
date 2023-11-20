@@ -65,6 +65,15 @@
     <Filter Include="CollisionSystem\CollisionManager">
       <UniqueIdentifier>{78d1dcc1-fd7d-4e8b-b311-7ab6c0856584}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CommandSystem">
+      <UniqueIdentifier>{4e65590d-134d-4061-aab7-9f84cd408624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandSystem\ICommand">
+      <UniqueIdentifier>{32fdc840-6120-4388-9000-7b12e15aaec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandSystem\InputHandler">
+      <UniqueIdentifier>{4f798373-7106-44f7-aecf-e6a9353e209d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -124,6 +133,12 @@
     </ClCompile>
     <ClCompile Include="CollisionSystem\CollisionManager\CollisionManager.cpp">
       <Filter>CollisionSystem\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandSystem\InputHandler\InputHandler.cpp">
+      <Filter>CommandSystem\InputHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandSystem\Command\Command.cpp">
+      <Filter>CommandSystem\ICommand</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -201,9 +216,6 @@
     <ClInclude Include="Charactors\BaceCharactor\BaceCharactor.h">
       <Filter>Charactors\BaceCharactor</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Charactors\Player</Filter>
-    </ClInclude>
     <ClInclude Include="Charactors\Enemy\Enemy.h">
       <Filter>Charactors\Enemy</Filter>
     </ClInclude>
@@ -236,6 +248,15 @@
     </ClInclude>
     <ClInclude Include="CollisionSystem\CollisionManager\CollisionManager.h">
       <Filter>CollisionSystem\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSystem\InputHandler\InputHandler.h">
+      <Filter>CommandSystem\InputHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Charactors\Player\Player.h">
+      <Filter>Charactors\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSystem\Command\Command.h">
+      <Filter>CommandSystem\ICommand</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

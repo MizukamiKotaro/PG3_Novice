@@ -8,8 +8,10 @@ SceneManager::SceneManager()
 	sceneArr_[STAGE] = std::make_unique<StageScene>();
 	sceneArr_[CLEAR] = std::make_unique<ClearScene>();
 
-	IScene::sceneNo_ = TITLE;
-	currentSceneNo_ = TITLE;
+	IScene::sceneNo_ = STAGE;
+	currentSceneNo_ = IScene::sceneNo_;
+
+	sceneArr_[currentSceneNo_]->Init();
 }
 
 SceneManager::~SceneManager()

@@ -120,6 +120,8 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="Charactors\Player\Player.cpp" />
     <ClCompile Include="CollisionSystem\Collider\Collider.cpp" />
     <ClCompile Include="CollisionSystem\CollisionManager\CollisionManager.cpp" />
+    <ClCompile Include="CommandSystem\Command\Command.cpp" />
+    <ClCompile Include="CommandSystem\InputHandler\InputHandler.cpp" />
     <ClCompile Include="InputManager\InputManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Objects\Bullet\Bullet.cpp" />
@@ -159,12 +161,14 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
     <ClInclude Include="Charactors\BaceCharactor\BaceCharactor.h" />
     <ClInclude Include="Charactors\Enemy\Enemy.h" />
+    <ClInclude Include="Charactors\Player\Player.h" />
     <ClInclude Include="CollisionSystem\Collider\Collider.h" />
     <ClInclude Include="CollisionSystem\CollisionConfig\CollisionConfig.h" />
     <ClInclude Include="CollisionSystem\CollisionManager\CollisionManager.h" />
+    <ClInclude Include="CommandSystem\Command\Command.h" />
+    <ClInclude Include="CommandSystem\InputHandler\InputHandler.h" />
     <ClInclude Include="InputManager\InputManager.h" />
     <ClInclude Include="Objects\Bullet\Bullet.h" />
-    <ClInclude Include="Player.h" />
     <ClInclude Include="SceneSystem\ClearScene\ClearScene.h" />
     <ClInclude Include="SceneSystem\IScene\IScene.h" />
     <ClInclude Include="SceneSystem\SceneManager\SceneManager.h" />
